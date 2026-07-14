@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consult ChatGPT Pro"
+  short_description: "Get advisory Pro review for high-impact work"
+  default_prompt: "Use $consult-chatgpt-pro to obtain advisory Pro guidance for this high-impact task."
