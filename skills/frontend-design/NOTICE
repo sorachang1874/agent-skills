@@ -1,0 +1,5 @@
+This Skill is derived from Anthropic's Apache-2.0-licensed frontend-design
+Skill, Copyright 2026 Anthropic, PBC.
+
+Modifications in this repository make the workflow host-neutral and add
+explicit missing-input, rendered-validation, and failure-recovery boundaries.
