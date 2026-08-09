@@ -10,6 +10,7 @@ workflows rather than written speculatively.
 | Skill | What it does |
 |---|---|
 | [`consult-chatgpt-pro`](skills/consult-chatgpt-pro/SKILL.md) | Use ChatGPT Pro (Chat surface, GPT-5.6 Sol) as a high-judgment **advisory** consultant for consequential planning, architecture decisions, approach reviews, hard debugging, and milestone audits — with a strict consultation contract: scope gating, advisory-only authority boundaries, redaction-first context manifests, safe read-only GitHub Connector usage pinned to immutable commits, a structured request/response schema, and durable, hash-bound advisory artifacts that can never masquerade as formal review evidence. |
+| [`frontend-design`](skills/frontend-design/SKILL.md) | Establish and implement a subject-specific visual direction for new or substantially redesigned interfaces, with explicit missing-input, rendered-validation, and failure-recovery boundaries. |
 | [`product-logic-spec`](skills/product-logic-spec/SKILL.md) | （中文 skill）The **product-logic layer before page specs**: distill messy mixed business inputs (rundowns, delivery packs, shared specs) into actor capability contracts, service blueprints, ORCA/OOUX object models, IA theses, state & transition models, and page attention + interaction-surface contracts — through three non-negotiable review gates (model → behavior → page contract) before any HTML or visual work. Built for multi-role products (child-facing apps + admin consoles) where every page must serve its target role's tasks, vocabulary, and complexity budget — not the domain model. |
 
 ## Installing a skill
@@ -41,4 +42,7 @@ points may be described as examples).
 
 ## License
 
-MIT
+The repository's original Skills are available under the root MIT license.
+Individual imported or derived Skills may carry their own license and notice;
+the files inside that Skill directory take precedence. In particular,
+`frontend-design` is distributed under Apache-2.0 with its modification notice.
